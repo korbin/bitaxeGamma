@@ -1813,6 +1813,17 @@
 		)
 		(uuid "7ff42f89-9336-4e98-8e2e-844b7aa3b1b9")
 	)
+	(text "Bypass TPS82130 for legacy 5Vin max support"
+		(exclude_from_sim no)
+		(at 54.102 200.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a80317c-fc4d-4b7d-b9e1-e51c0a72d31c")
+	)
 	(text "I2C ADDR = 0x24"
 		(exclude_from_sim no)
 		(at 85.344 91.186 0)
@@ -2281,6 +2292,10 @@
 	(no_connect
 		(at 135.89 88.9)
 		(uuid "67d10ff8-2c2a-4682-b443-76b16154bcb8")
+	)
+	(no_connect
+		(at 64.77 168.91)
+		(uuid "7f485879-cea3-433f-8df1-599bf0e626fa")
 	)
 	(no_connect
 		(at 135.89 93.98)
@@ -3224,6 +3239,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 195.58) (xy 91.44 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b6ca54-086f-49e1-a4ea-3cd7f6681ad0")
+	)
+	(wire
+		(pts
 			(xy 101.6 45.72) (xy 107.95 45.72)
 		)
 		(stroke
@@ -3271,6 +3296,16 @@
 			(type default)
 		)
 		(uuid "7bafbe77-0b5c-4c93-bbba-967ef7615182")
+	)
+	(wire
+		(pts
+			(xy 64.77 195.58) (xy 72.39 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dab0ef5-8d38-4b83-945d-5b6ced3c0923")
 	)
 	(wire
 		(pts
@@ -4670,6 +4705,17 @@
 		)
 		(uuid "6c1b8684-06aa-475f-b0bf-34b6b7d714bb")
 	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 64.77 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70c6c664-1351-4d6c-873c-6f498b6d7722")
+	)
 	(hierarchical_label "PGOOD"
 		(shape output)
 		(at 172.72 114.3 0)
@@ -4691,6 +4737,17 @@
 			(justify right)
 		)
 		(uuid "740d2314-2b6d-47cb-afe9-f5ed54e8ad70")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 91.44 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86315a4f-d946-4ca0-a5e9-b8df4db248b3")
 	)
 	(hierarchical_label "VIN"
 		(shape input)
@@ -8160,6 +8217,93 @@
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 76.2 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e3ca84b6-50c7-434d-bc48-21782c8d0734")
+		(property "Reference" "R27"
+			(at 74.93 193.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 79.756 193.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 76.454 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "YAG1327DKR-ND"
+			(at 76.2 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "RC0805JR-070RP"
+			(at 76.2 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69e5b89a-c3d5-48e1-aaf3-19d5e6e19b1d")
+		)
+		(pin "2"
+			(uuid "5cda6780-92ce-40d6-9546-aa099967d6d7")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+					(reference "R27")
 					(unit 1)
 				)
 			)
