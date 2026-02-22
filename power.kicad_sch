@@ -8683,7 +8683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+		(property "Footprint" "bitaxe:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 			(at 74.93 182.88 0)
 			(effects
 				(font

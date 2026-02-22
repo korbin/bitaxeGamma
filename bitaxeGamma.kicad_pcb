@@ -9057,14 +9057,14 @@
 			)
 		)
 	)
-	(footprint "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+	(footprint "bitaxe:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "4a5ea80a-dbdf-4bcc-a9e9-0c7b51454fa5")
 		(at 94.8 57.7 180)
 		(descr "Texas SIL0008D MicroSiP, 8 Pin (http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Texas MicroSiP NoLead")
 		(property "Reference" "U11"
-			(at 1.37 -2.52 180)
+			(at 0 -2.45 180)
 			(layer "F.SilkS")
 			(uuid "c97682b0-0701-4bc9-a702-57f098792ff9")
 			(effects
@@ -9122,7 +9122,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6e86cb75-da6f-4f53-ba50-f002f4cdf0e5")
+			(uuid "e9ef86cb-c8d0-4519-b340-4aa3d1d5dadb")
 		)
 		(fp_line
 			(start -1.4 1.61)
@@ -9132,7 +9132,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ab9e7499-d77f-425a-9318-6e014fed5190")
+			(uuid "2d2ac8c9-f245-40e3-a212-873b61571bf5")
 		)
 		(fp_poly
 			(pts
@@ -9144,7 +9144,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "39ccbaa9-9a96-4ad4-b642-a8ba22b3b53d")
+			(uuid "be6c4bc7-86c7-47f8-9100-63759183c521")
 		)
 		(fp_line
 			(start 1.65 1.75)
@@ -9154,7 +9154,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4582768f-c564-4edb-93fa-34d9570b66a5")
+			(uuid "43e07497-730a-47c5-ad69-23f48b236bb8")
 		)
 		(fp_line
 			(start 1.65 -1.75)
@@ -9164,7 +9164,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1e3e3dde-301f-4d21-a5b5-e172f4b5793b")
+			(uuid "c44adcab-15d1-4214-872f-5d75ee2e08b3")
 		)
 		(fp_line
 			(start -1.65 1.75)
@@ -9174,7 +9174,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3f71613c-b33b-46c9-a337-b7c63b968eeb")
+			(uuid "d07428c5-aa57-49e1-8507-b022a7d416f1")
 		)
 		(fp_line
 			(start -1.65 -1.75)
@@ -9184,7 +9184,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3c3d64f3-605d-4d0e-9cf2-2d6726dd91e2")
+			(uuid "0fbe5bb9-df6c-4d09-b169-baede8e42d03")
 		)
 		(fp_line
 			(start 1.4 1.5)
@@ -9194,7 +9194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7c469c58-0af8-4e34-a6a2-68cbab7d1494")
+			(uuid "8524f4d0-64bf-4205-946d-1390fc2e7eb9")
 		)
 		(fp_line
 			(start 1.4 -1.5)
@@ -9204,7 +9204,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2d0fd877-0c72-49d7-a9d7-f78beb6a2b3b")
+			(uuid "58752f39-14eb-4627-ab2f-5c8c898a42fd")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -9214,7 +9214,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8cf74caa-8cc5-471e-81fc-59357b8e69df")
+			(uuid "73e7e7f3-c31e-4d04-af8f-e17d8670ee46")
 		)
 		(fp_line
 			(start -1.4 1.5)
@@ -9224,7 +9224,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7a9c5a1d-cc36-4c9d-8e39-f835c84326a7")
+			(uuid "bc44c8da-bee2-45db-9b36-223c98043a9b")
 		)
 		(fp_line
 			(start -1.4 -0.8)
@@ -9234,7 +9234,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b85e11cd-51ab-4d8d-8ea7-6db891771b46")
+			(uuid "83dc703f-ae0a-4f07-bf23-ef7f470481ca")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 270)
@@ -9252,27 +9252,27 @@
 			(size 0.95 0.55)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "12cc5e2a-3509-43ee-a619-d4e0f0cd842c")
+			(uuid "9266f092-20a6-4d6e-aa46-3be1b12ba39b")
 		)
 		(pad "" smd roundrect
 			(at 0 0 180)
 			(size 0.95 0.55)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "4074f759-c8b9-48ba-9005-6599a876f852")
+			(uuid "0c7d0239-0825-4614-8bf2-0f99e0abd4bb")
 		)
 		(pad "" smd roundrect
 			(at 0 0.63 180)
 			(size 0.95 0.55)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
-			(uuid "901876f0-879e-4987-97e7-b49fbabcebf1")
+			(uuid "c510aab4-3c4e-4cfb-ba88-b054264f0341")
 		)
 		(pad "1" smd roundrect
 			(at -1.0625 -0.975 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 102 "/Power/VIN")
 			(pinfunction "EN")
 			(pintype "input")
@@ -9280,9 +9280,9 @@
 		)
 		(pad "2" smd roundrect
 			(at -1.0625 -0.325 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 102 "/Power/VIN")
 			(pinfunction "VIN")
 			(pintype "power_in")
@@ -9290,9 +9290,9 @@
 		)
 		(pad "3" smd roundrect
 			(at -1.0625 0.325 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
@@ -9300,9 +9300,9 @@
 		)
 		(pad "4" smd roundrect
 			(at -1.0625 0.975 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 4 "/5V")
 			(pinfunction "VOUT")
 			(pintype "power_out")
@@ -9310,9 +9310,9 @@
 		)
 		(pad "5" smd roundrect
 			(at 1.0625 0.975 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 4 "/5V")
 			(pinfunction "VOUT")
 			(pintype "passive")
@@ -9320,9 +9320,9 @@
 		)
 		(pad "6" smd roundrect
 			(at 1.0625 0.325 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 103 "Net-(U11-FB)")
 			(pinfunction "FB")
 			(pintype "input")
@@ -9330,9 +9330,9 @@
 		)
 		(pad "7" smd roundrect
 			(at 1.0625 -0.325 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 104 "unconnected-(U11-PG-Pad7)")
 			(pinfunction "PG")
 			(pintype "open_collector+no_connect")
@@ -9340,9 +9340,9 @@
 		)
 		(pad "8" smd roundrect
 			(at 1.0625 -0.975 180)
-			(size 0.625 0.5)
+			(size 0.5 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
+			(roundrect_rratio 0.125)
 			(net 105 "unconnected-(U11-SS{slash}TR-Pad8)")
 			(pinfunction "SS/TR")
 			(pintype "input+no_connect")
@@ -9351,7 +9351,7 @@
 		(pad "9" thru_hole circle
 			(at 0 -0.75 180)
 			(size 0.5 0.5)
-			(drill 0.3)
+			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -9363,7 +9363,7 @@
 		(pad "9" thru_hole circle
 			(at 0 0 180)
 			(size 0.5 0.5)
-			(drill 0.3)
+			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -9383,11 +9383,12 @@
 			(zone_connect 2)
 			(uuid "838bda94-52b2-4a7a-94d9-32a0d029ec64")
 		)
-		(pad "9" smd rect
+		(pad "9" smd roundrect
 			(at 0 0 180)
 			(size 1.1 1.9)
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.04545454546)
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
@@ -9397,7 +9398,7 @@
 		(pad "9" thru_hole circle
 			(at 0 0.75 180)
 			(size 0.5 0.5)
-			(drill 0.3)
+			(drill 0.2)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -35808,6 +35809,14 @@
 		(uuid "63cade4f-f3b4-42cb-8864-d415bae81369")
 	)
 	(segment
+		(start 95.8625 56.6)
+		(end 95.4175 56.28)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "69c24c40-a82c-4f7e-892b-f83e13c9064c")
+	)
+	(segment
 		(start 94.62 56.28)
 		(end 93.87 55.53)
 		(width 0.5)
@@ -35942,14 +35951,6 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "dc1e6956-c536-45da-b852-1cd9095466f4")
-	)
-	(segment
-		(start 95.8625 56.725)
-		(end 95.4175 56.28)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "dcc2d3a0-c035-437e-a4ec-2fd00af06c02")
 	)
 	(segment
 		(start 108.741 129.279)
@@ -41759,7 +41760,7 @@
 	)
 	(segment
 		(start 95.8625 60.2075)
-		(end 95.8625 58.025)
+		(end 95.8625 58.125)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 102)
